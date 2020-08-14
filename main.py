@@ -1,1 +1,2 @@
-print('fold')
+k=1
+print(k)
