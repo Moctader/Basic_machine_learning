@@ -11,7 +11,8 @@ for i in tqdm(range(int(9e6))):
 def function1 ():
     print('áhh')
     print('ahh2')
-print('this function is outside of this era')
+
+#print('this function is outside of this era')
 function1()
 function1()
 
