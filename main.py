@@ -4,6 +4,16 @@ import pandas as pd
 import os
 from tqdm import tqdm
 
+import pyautogui
+import time
+message=10
+while message>0:
+    time.sleep(4)
+    pyautogui.typewrite('i need you.')
+    time.sleep(2)
+    pyautogui.press('enter')
+    message =message-1
+
 for i in tqdm(range(int(9e6))):
     pass
 
